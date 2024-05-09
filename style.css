@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    font-family: "Poetsen One", sans-serif;
+    padding: 0%;
+    margin: 0%;
+    color: #fff;
+}
+body {
+    background-color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenar {
+    display: grid;
+    width: 400px;
+    height: 500px;
+    padding: 0px 5%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.contenar h1{
+    position: relative;
+    top: 80%;
+    text-align: center;
+    background-color: rgb(247, 5, 53);
+    height: 50%;
+    width: 40%;
+    margin: 0px auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+}
+.contenar h3 {
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    position: relative;
+    top: 55%;
+}
+.contenar p{
+    text-align: center;
+    position: relative;
+    top: -10%;
+    color: rgb(255, 0, 51);
+    font-size: 14px;
+}
+form {
+    position: relative;
+padding: 10px 20px;
+top: -20%;
+}
+form input[type="text"] , input[type="password"]{ 
+width: 100%;
+margin: 5px;
+height: 17%;
+background-color:rgba(255, 255, 255, 0.1);
+border: none;
+outline: none;
+border-bottom: 2px solid;
+padding: 0px 5px;
+border-radius: 5px;
+}
+form input[type="text"]:focus , input[type="password"]:focus{
+    border: 2px solid rgb(255, 0, 51);
+}
+form input[type="submit"]{
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 3%;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    position: relative;
+    top: -5%;
+    background-color: rgb(255, 0, 51);
+    cursor: pointer;
+    transition:0.5s;
+    font-size: 20px;
+    text-align: center;
+
+}
+form a{
+    color: rgb(255, 0, 51);
+    text-decoration: none;
+    
+}
+form .sign{
+    margin-left: 10%;
+    margin-top: 10px;
+}
+form input[type="submit"]:hover{
+    transform: scale(1.1);
+}
+/* @media (min-width:) and (max-width:) {
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
